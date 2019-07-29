@@ -26,5 +26,6 @@ namespace AssetManagement.Context
         public DbSet<Employee> Employees{ set; get; }
         public DbSet<User> Users { set; get; }
         public DbSet<LoanRequest> LoanRequests { set; get; }
+        public DbSet<LoanRequestDetail> LoanRequestDetails { set; get; }
     }
 }

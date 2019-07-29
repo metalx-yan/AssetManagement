@@ -8,23 +8,23 @@ using System.Threading.Tasks;
 
 namespace AssetManagement.Models
 {
-    public class User : BaseModel
+    public class LoanRequestDetail : BaseModel
     {
-        public string Email { get; set; }
-        public string Password { get; set; }
-        public Role Role { get; set; }
-        public User() { }
-        public User(UserVM userVM)
+        public int Quantity { get; set; }
+        public string AssetName { get; set; }
+        public LoanRequest LoanRequest { get; set; }
+        public LoanRequestDetail() { }
+        public LoanRequestDetail(LoanRequestDetailVM loanrequestdetailVM)
         {
-            this.Email = userVM.Email;
-            this.Password = userVM.Password;
+            this.Quantity = loanrequestdetailVM.Quantity;
+            this.AssetName = loanrequestdetailVM.AssetName;
             //this.Role_Id = userVM.Role_Id;
             this.CreateDate = DateTimeOffset.Now.LocalDateTime;
         }
-        public void Update(UserVM userVM)
+        public void Update(LoanRequestDetailVM loanrequestdetailVM)
         {
-            this.Email = userVM.Email;
-            this.Password = userVM.Password;
+            this.Quantity = loanrequestdetailVM.Quantity;
+            this.AssetName = loanrequestdetailVM.AssetName;
             //this.Role = Convert.ToInt32(userVM.RoleId);
             this.UpdateDate = DateTimeOffset.Now.LocalDateTime;
         }

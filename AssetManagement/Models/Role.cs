@@ -18,10 +18,10 @@ namespace AssetManagement.Models
             this.CreateDate = DateTimeOffset.Now.LocalDateTime;
         }
 
-        public void Update(CategoryVM categoryVM)
+        public void Update(RoleVM roleVM)
         {
             //this.Id = categoryVM.Id;
-            this.Name = categoryVM.Name;
+            this.Name = roleVM.Name;
             this.UpdateDate = DateTimeOffset.Now.LocalDateTime;
         }
 

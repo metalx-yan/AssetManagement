@@ -76,6 +76,8 @@
     </ApplicationDefinition>
     <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\EmployeesController.cs" />
+    <Compile Include="Controllers\LoanRequestDetailsController.cs" />
+    <Compile Include="Controllers\LoanRequestsController.cs" />
     <Compile Include="Controllers\RolesController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Migrations\201907241002512_addmodulecategory.cs" />
@@ -102,21 +104,41 @@
     <Compile Include="Migrations\201907260844196_updateforeignuser.Designer.cs">
       <DependentUpon>201907260844196_updateforeignuser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201907271405233_updatinguserstatus.cs" />
+    <Compile Include="Migrations\201907271405233_updatinguserstatus.Designer.cs">
+      <DependentUpon>201907271405233_updatinguserstatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907280415355_updateforeignloanrequest.cs" />
+    <Compile Include="Migrations\201907280415355_updateforeignloanrequest.Designer.cs">
+      <DependentUpon>201907280415355_updateforeignloanrequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907281511153_updatetableemployee.cs" />
+    <Compile Include="Migrations\201907281511153_updatetableemployee.Designer.cs">
+      <DependentUpon>201907281511153_updatetableemployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907282230309_add-migration addmoduleloanrequestdetail.cs" />
+    <Compile Include="Migrations\201907282230309_add-migration addmoduleloanrequestdetail.Designer.cs">
+      <DependentUpon>201907282230309_add-migration addmoduleloanrequestdetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\LoanRequest.cs" />
+    <Compile Include="Models\LoanRequestDetail.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Repositories\CategoryRepository.cs" />
     <Compile Include="Repositories\EmployeeRepository.cs" />
     <Compile Include="Repositories\Interfaces\ICategoryRepository.cs" />
     <Compile Include="Repositories\Interfaces\IEmployeeRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ILoanRequestDetailRepository.cs" />
     <Compile Include="Repositories\Interfaces\ILoanRequestRepository.cs" />
     <Compile Include="Repositories\Interfaces\IRoleRepository.cs" />
     <Compile Include="Repositories\Interfaces\IUserRepository.cs" />
+    <Compile Include="Repositories\LoanRequestDetailRepository.cs" />
     <Compile Include="Repositories\LoanRequestRepository.cs" />
     <Compile Include="Repositories\RoleRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="ViewModels\CategoryVM.cs" />
     <Compile Include="ViewModels\EmployeeVM.cs" />
+    <Compile Include="ViewModels\LoanRequestDetailVM.cs" />
     <Compile Include="ViewModels\LoanRequestVM.cs" />
     <Compile Include="ViewModels\RoleVM.cs" />
     <Compile Include="ViewModels\UserVM.cs" />
@@ -169,6 +191,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201907260844196_updateforeignuser.resx">
       <DependentUpon>201907260844196_updateforeignuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907271405233_updatinguserstatus.resx">
+      <DependentUpon>201907271405233_updatinguserstatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907280415355_updateforeignloanrequest.resx">
+      <DependentUpon>201907280415355_updateforeignloanrequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907281511153_updatetableemployee.resx">
+      <DependentUpon>201907281511153_updatetableemployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907282230309_add-migration addmoduleloanrequestdetail.resx">
+      <DependentUpon>201907282230309_add-migration addmoduleloanrequestdetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

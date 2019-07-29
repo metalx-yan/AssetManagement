@@ -41,29 +41,43 @@ namespace AssetManagement.Repositories
             return get;
         }
 
-        public Category Get(int id)
+        public Role Get(int id)
         {
             // var get = applicationcontext.Categories.Where(x => x.IsDelete == false && x.Id == id).SingleOrDefault();
-            var get = applicationcontext.Categories.SingleOrDefault(x => x.IsDelete == false && x.Id == id);
+            var get = applicationcontext.Roles.SingleOrDefault(x => x.IsDelete == false && x.Id == id);
             return get;
         }
 
         public bool Insert(RoleVM roleVM)
         {
             var push = new Role(roleVM);
-            applicationcontext.Roles.Add(push);
-            var result = applicationcontext.SaveChanges();
-            return result > 0;
+            if (push != null)
+            {
+                applicationcontext.Roles.Add(push);
+                var result = applicationcontext.SaveChanges();
+                return result > 0;
+            }
+            else
+            {
+                return false;
+            }
         }
-
         public bool Update(int id, RoleVM roleVM)
         {
             var get = Get(id);
-            get.Update(roleVM);
-            // entry data yang akan di ubah, state mengacu sebelah kanan supaya kita mendapatkan modified
-            applicationcontext.Entry(get).State = EntityState.Modified;
-            var result = applicationcontext.SaveChanges();
-            return result > 0;
+            if (get != null)
+            {
+                get.Update(roleVM);
+                // entry data yang akan di ubah, state mengacu sebelah kanan supaya kita mendapatkan modified
+                applicationcontext.Entry(get).State = EntityState.Modified;
+                var result = applicationcontext.SaveChanges();
+                return result > 0;
+            }
+            else
+            {
+                return false;
+            }
+            
         }
 
         Role IRoleRepository.Get(int id)

@@ -2,3 +2,4 @@
 /AssetManagement/obj/Debug/*.cache
 /AssetManagement/bin/Debug/AssetManagement.exe.config
 /AssetManagement/bin/Debug/AssetManagement.vshost.exe.config
+/AssetManagement/obj/Debug/*.resources

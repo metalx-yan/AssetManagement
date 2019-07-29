@@ -11,7 +11,8 @@ namespace AssetManagement.Models
     public class LoanRequest : BaseModel
     {
         public DateTime? Date { get; set; }
-        public bool Status { get; set; } 
+        public string Status { get; set; }
+        public User User{ get; set; }
         public LoanRequest() { }
         public LoanRequest(LoanRequestVM loanrequestVM)
         {

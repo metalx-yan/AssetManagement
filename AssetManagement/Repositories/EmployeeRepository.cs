@@ -31,7 +31,7 @@ namespace AssetManagement.Repositories
         }
         public List<Employee> Get(string value)
         {
-            var get = applicationcontext.Employees.Where(x => (x.Name.Contains(value) || Convert.ToString(value).Contains(value)) && x.IsDelete == false).ToList();
+            var get = applicationcontext.Employees.Where(x => (x.FirstName.Contains(value) || x.LastName.Contains(value)) && x.IsDelete == false).ToList();
             return get;
         }
         public Employee Get(int id)
@@ -43,17 +43,32 @@ namespace AssetManagement.Repositories
         public bool Insert(EmployeeVM employeeVM)
         {
             var push = new Employee(employeeVM);
-            applicationcontext.Employees.Add(push);
-            var result = applicationcontext.SaveChanges();
-            return result > 0;
+            if (push != null)
+            {
+                applicationcontext.Employees.Add(push);
+                var result = applicationcontext.SaveChanges();
+                return result > 0;
+            }
+            else
+            {
+                return false;
+            }
         }
         public bool Update(int id, EmployeeVM employeeVM)
         {
             var get = Get(id);
-            get.Update(employeeVM);
-            applicationcontext.Entry(get).State = EntityState.Modified;
-            var result = applicationcontext.SaveChanges();
-            return result > 0;
+            if (get != null)
+            {
+                get.Update(employeeVM);
+                applicationcontext.Entry(get).State = EntityState.Modified;
+                var result = applicationcontext.SaveChanges();
+                return result > 0;
+            }
+            else
+            {
+                return false;
+            }
+            
         }
     }
 }

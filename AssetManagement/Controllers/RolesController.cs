@@ -45,5 +45,10 @@ namespace AssetManagement.Controllers
         {
             return irolerepository.Delete(id);
         }
+
+        internal object Update(int v, UserVM push)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

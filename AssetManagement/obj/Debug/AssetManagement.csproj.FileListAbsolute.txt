@@ -29,3 +29,7 @@ A:\Git\AssetManagement\AssetManagement\bin\Debug\MaterialDesignThemes.Wpf.xml
 A:\Git\AssetManagement\AssetManagement\obj\Debug\App.baml
 A:\Git\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.updatinguser.resources
 A:\Git\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.updateforeignuser.resources
+A:\Git\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.updatinguserstatus.resources
+A:\Git\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.updateforeignloanrequest.resources
+A:\Git\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.updatetableemployee.resources
+A:\Git\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.addmigrationaddmoduleloanrequestdetail.resources
