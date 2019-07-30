@@ -34,7 +34,7 @@ namespace AssetManagement.Repositories
         public List<LoanRequestDetail> Get()
         {
             // Categories yang ada di applicationcontext
-            var get = applicationcontext.LoanRequestDetails.Where(x => x.IsDelete == false).Include("LoanRequest").ToList();
+            var get = applicationcontext.LoanRequestDetails.Where(x => x.IsDelete == false).Include("LoanRequest").Include("Asset").ToList();
             return get;
         }
         public List<LoanRequestDetail> Get(string value)
@@ -59,6 +59,8 @@ namespace AssetManagement.Repositories
             {
                 var getLoanRequest = applicationcontext.LoanRequests.SingleOrDefault(x => x.IsDelete == false && x.Id == loanrequestdetailVM.LoanRequestId);
                 push.LoanRequest = getLoanRequest;
+                var getAsset = applicationcontext.Assets.SingleOrDefault(x => x.IsDelete == false && x.Id == loanrequestdetailVM.AssetId);
+                push.Asset = getAsset;
                 applicationcontext.LoanRequestDetails.Add(push);
                 var result = applicationcontext.SaveChanges();
                 return result > 0;
@@ -75,6 +77,8 @@ namespace AssetManagement.Repositories
             {
                 var getLoanRequest = applicationcontext.LoanRequests.SingleOrDefault(x => x.IsDelete == false && x.Id == loanrequestdetailVM.LoanRequestId);
                 get.LoanRequest = getLoanRequest;
+                var getAsset = applicationcontext.Assets.SingleOrDefault(x => x.IsDelete == false && x.Id == loanrequestdetailVM.AssetId);
+                get.Asset = getAsset;
                 get.Update(loanrequestdetailVM);
                 // entry data yang akan di ubah, state mengacu sebelah kanan supaya kita mendapatkan modified
                 applicationcontext.Entry(get).State = EntityState.Modified;

@@ -33,3 +33,43 @@ A:\Git\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.upda
 A:\Git\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.updateforeignloanrequest.resources
 A:\Git\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.updatetableemployee.resources
 A:\Git\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.addmigrationaddmoduleloanrequestdetail.resources
+A:\Git\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.addmanagerid.resources
+A:\Git\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.addmoduleassetsupplier.resources
+A:\Git\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.addmodulereturn.resources
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\bin\Debug\AssetManagement.exe.config
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\AssetManagement.exe
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\AssetManagement.pdb
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\bin\Debug\AssetManagement.exe
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\bin\Debug\AssetManagement.pdb
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\bin\Debug\EntityFramework.dll
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\bin\Debug\EntityFramework.SqlServer.dll
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\bin\Debug\MaterialDesignColors.dll
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\bin\Debug\EntityFramework.xml
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\bin\Debug\EntityFramework.SqlServer.xml
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\bin\Debug\MaterialDesignColors.pdb
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\AssetManagement.csprojResolveAssemblyReference.cache
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\MainWindow.g.cs
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\App.g.cs
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\AssetManagement_MarkupCompile.cache
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\AssetManagement_MarkupCompile.lref
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\App.baml
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\MainWindow.baml
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\AssetManagement.g.resources
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Properties.Resources.resources
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\AssetManagement.csproj.GenerateResource.Cache
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.all.resources
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Migrations.updateforeignkeyasset.resources
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\Window1.g.cs
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\Window2.g.cs
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\Window1.baml
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\Window2.baml
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\Master.g.cs
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\Manager.g.cs
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\Employee.g.cs
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\ProcurementManager.g.cs
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\Transaction.g.cs
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\Window3.g.cs
+E:\NIRMALA SARI\New folder\AssetManagement\AssetManagement\obj\Debug\Window4.g.cs

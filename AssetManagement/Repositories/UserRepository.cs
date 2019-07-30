@@ -67,10 +67,8 @@ namespace AssetManagement.Repositories
             else
             {
                 return false;
-            }
-            
+            }            
         }
-
         public bool Update(int id, UserVM userVM)
         {
             var get = Get(id);

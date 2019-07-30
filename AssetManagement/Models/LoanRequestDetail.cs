@@ -13,6 +13,7 @@ namespace AssetManagement.Models
         public int Quantity { get; set; }
         public string AssetName { get; set; }
         public LoanRequest LoanRequest { get; set; }
+        public Asset Asset { get; set; }
         public LoanRequestDetail() { }
         public LoanRequestDetail(LoanRequestDetailVM loanrequestdetailVM)
         {

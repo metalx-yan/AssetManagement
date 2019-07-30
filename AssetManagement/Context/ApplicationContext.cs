@@ -27,5 +27,8 @@ namespace AssetManagement.Context
         public DbSet<User> Users { set; get; }
         public DbSet<LoanRequest> LoanRequests { set; get; }
         public DbSet<LoanRequestDetail> LoanRequestDetails { set; get; }
+        public DbSet<Asset> Assets { set; get; }
+        public DbSet<Supplier> Suppliers { set; get; }
+        public DbSet<Return> Returns{ set; get; }
     }
 }

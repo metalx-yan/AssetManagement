@@ -38,7 +38,6 @@ namespace AssetManagement.Models
             this.Address = employeeVM.Address;
             this.UpdateDate = DateTimeOffset.Now.LocalDateTime;
         }        
-
         public void Delete()
         {
             this.IsDelete = true;

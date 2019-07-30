@@ -11,18 +11,21 @@ namespace AssetManagement.ViewModels
         public int Quantity { get; set; }
         public string AssetName { get; set; }
         public int LoanRequestId { get; set; }
+        public int AssetId { get; set; }
         public LoanRequestDetailVM() { }
-        public LoanRequestDetailVM(int quantity, string assetname, int loanrequestid)
+        public LoanRequestDetailVM(int quantity, string assetname, int loanrequestid, int assetid)
         {
             this.Quantity = quantity;
             this.AssetName = assetname;
             this.LoanRequestId = loanrequestid;
+            this.AssetId = assetid;
         }
-        public void Update(int quantity, string assetname, int loanrequestid)
+        public void Update(int quantity, string assetname, int loanrequestid, int assetid)
         {
             this.Quantity = quantity;
             this.AssetName = assetname;
             this.LoanRequestId = loanrequestid;
+            this.AssetId = assetid;
         }
     }
 }
